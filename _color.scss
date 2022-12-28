@@ -1,0 +1,14 @@
+$color: #ff0220ea;
+
+%df {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin display($display: flex, $justify-content: center, $align-item: center, $flex-direction: row) {
+    display: $display;
+    justify-content: $justify-content;
+    align-items: $align-item;
+    flex-direction: $flex-direction;
+}
